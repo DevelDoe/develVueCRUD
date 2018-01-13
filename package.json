@@ -1,0 +1,38 @@
+{
+  "name": "develcrud",
+  "version": "0.0.0",
+  "description": "administration site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelDoe/devel-crud.git"
+  },
+  "author": "Andree \"DevelDoe\" Ray <me@andreeray.se> (http://andreeray.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevelDoe/devel-crud/issues"
+  },
+  "homepage": "https://github.com/DevelDoe/devel-crud#readme",
+  "dependencies": {
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.8",
+    "devel-style": "^1.0.12",
+    "style-loader": "^0.19.1",
+    "vue-loader": "^13.7.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "write-file-webpack-plugin": "^4.2.0"
+  }
+}
