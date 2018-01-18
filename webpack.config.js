@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: webpack.config.js
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-13T22:05:54+01:00
+ * @Last modified time: 2018-01-15T18:01:51+01:00
  */
 const path = require('path')
 const WriteFilePlugin = require('write-file-webpack-plugin')
@@ -65,5 +65,7 @@ module.exports = {
 
     plugins: [
         new WriteFilePlugin()
-    ]
+    ],
+
+    devtool: '#eval-source-map'
 }

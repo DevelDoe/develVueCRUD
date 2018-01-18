@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/DevelDoe/devel-crud#readme",
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vue-resource": "^1.3.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -28,7 +29,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.8",
-    "devel-style": "^1.0.12",
+    "devel-style": "^1.2.1",
     "style-loader": "^0.19.1",
     "vue-loader": "^13.7.0",
     "vue-style-loader": "^3.0.3",
